@@ -5,7 +5,11 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server/index.js"
+        "start": "node server/index.js",
+        "build": "cd client && npm install && npm run build"
+    },
+    "engines": {
+        "node": "14.17.2"
     },
     "repository": {
         "type": "git",
@@ -21,7 +25,5 @@
     "dependencies": {
         "express": "^4.17.1",
         "require": "^2.4.20"
-    },
-    "proxy": "http://localhost:3001"
-
+    }
 }
