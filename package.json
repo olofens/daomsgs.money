@@ -1,0 +1,27 @@
+{
+    "name": "daomsgs.money",
+    "version": "1.0.0",
+    "description": "Keep up to date with what specific people are saying in Discord without being there.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/olofens/daomsgs.money.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/olofens/daomsgs.money/issues"
+    },
+    "homepage": "https://github.com/olofens/daomsgs.money#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "require": "^2.4.20"
+    },
+    "proxy": "http://localhost:3001"
+
+}
